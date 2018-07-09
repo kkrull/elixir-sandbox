@@ -1,11 +1,15 @@
 defmodule HelloWorldTest do
   use ExUnit.Case
 
-  test "greets the world when no name is given" do
-    assert HelloWorld.hello() === "Hello World!"
+  describe "HelloWorld.hello/0" do
+    test "greets the world" do
+      assert HelloWorld.hello() === "Hello World!"
+    end
   end
 
-  test "greets a person by name when a name is given" do
-    assert HelloWorld.hello("George") === "Hello George!"
+  describe "HelloWorld.hello/1" do
+    test "greets a person by the given name" do
+      assert HelloWorld.hello("George") === "Hello George!"
+    end
   end
 end
