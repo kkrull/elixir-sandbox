@@ -61,6 +61,8 @@ $ mix test         #Run tests with summary output
 $ mix test --trace #Show the names of tests as they run
 ```
 
+To generate tests with coverage data, try `mix test --cover`.  The HTML coverage report is written to `cover/`.
+
 
 [mix]: https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html
 
