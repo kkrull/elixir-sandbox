@@ -1,5 +1,5 @@
 defmodule HelloWorld do
   def hello do
-    :world
+    "Hello World!"
   end
 end
