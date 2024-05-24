@@ -1,0 +1,7 @@
+# Only use spaces to indent your .yml configuration.
+image: bitwalker/alpine-elixir:1.6.6
+pipelines:
+  default:
+  - step:
+      script:
+      - mix test
